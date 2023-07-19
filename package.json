@@ -2,7 +2,7 @@
   "name": "crypto-exchange-rates",
   "version": "1.0.1",
   "description": "Receives up-to-date cryptocurrency rates without delays",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "start": "nodemon ./lib/index.js",
     "test": "mocha ./test/test.js"
