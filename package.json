@@ -1,6 +1,6 @@
 {
   "name": "crypto-exchange-rates",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Receives up-to-date cryptocurrency rates without delays",
   "main": "lib/index.js",
   "scripts": {
