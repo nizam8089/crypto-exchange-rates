@@ -22,7 +22,7 @@
     <li><code>symbols</code> (optional): An array of cryptocurrency symbols. If provided, it will return rates for the specified symbols. If not provided, it will return rates for all available cryptocurrencies.</li>
   </ul>
   
-  <pre><code>const { getCryptoRates } = require('./crypto-rates');
+  <pre><code>const { getCryptoRates } = require('crypto-exchange-rates');
   
 getCryptoRates(['BTCUSDT', 'ETHUSDT'])
   .then(result => {
@@ -40,7 +40,7 @@ getCryptoRates(['BTCUSDT', 'ETHUSDT'])
     <li><code>symbol</code>: A string representing the cryptocurrency symbol for which you want to get the rate.</li>
   </ul>
   
-  <pre><code>const { getCryptoRate } = require('./crypto-rates');
+  <pre><code>const { getCryptoRate } = require('crypto-exchange-rates');
   
 getCryptoRate('BTCUSDT')
   .then(result => {
@@ -54,7 +54,7 @@ getCryptoRate('BTCUSDT')
   
   <p>This function retrieves market data from the Binance API.</p>
   
-  <pre><code>const { loadMarketData } = require('./crypto-rates');
+  <pre><code>const { loadMarketData } = require('crypto-exchange-rates');
   
 loadMarketData()
   .then(result => {
