@@ -2,10 +2,10 @@
   "name": "crypto-exchange-rates",
   "version": "1.0.0",
   "description": "Receives up-to-date cryptocurrency rates without delays",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "test"
+    "start": "nodemon ./lib/index.js",
+    "test": "mocha ./test/test.js"
   },
   "keywords": [
     "Cryptocurrency",
